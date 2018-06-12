@@ -8,6 +8,7 @@ import com.ucbcba.taller.entities.Restaurant;
 import com.ucbcba.taller.entities.User;
 import com.ucbcba.taller.services.CityService;
 import com.ucbcba.taller.services.SecurityService;
+import com.ucbcba.taller.services.UserProfileService;
 import com.ucbcba.taller.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
@@ -32,6 +33,9 @@ public class UserController {
 
     @Autowired
     private CityService cityService;
+
+    @Autowired
+    private UserProfileService userProfileService;
 
     //@Autowired
     //private UserValidator userValidator;

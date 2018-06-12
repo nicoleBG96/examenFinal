@@ -43,10 +43,10 @@ INSERT INTO restaurant(id, name,phone,description,likes,category_id,city_id, lat
 INSERT INTO restaurant(id, name,phone,description,likes,category_id,city_id, latitude, longitud) VALUES (62,'Pollos Don Coco',4456288,'Buen servicio',0,101,51, -16.4965414,-68.146513);
 INSERT INTO restaurant(id, name,phone,description,likes,category_id,city_id, latitude, longitud) VALUES (63,'Dumbo',4564589,'Feo',0,102,51, -16.5016923, -68.1338041);
 
-INSERT INTO user (id,admin,name,last_name,password,username,city_id) VALUES (1,1,'Grillo','Pepe','$2a$10$QVUYllnp1PMD4aQN/TDese/L78dN0ABWhnolJl0xmMtmTt.7ajx72','a',50);
-INSERT INTO user (id,admin,name,last_name,password,username,city_id) VALUES (2,0,'ElHonrado','Juan','$2a$10$QVUYllnp1PMD4aQN/TDese/L78dN0ABWhnolJl0xmMtmTt.7ajx72','aa',57);
-INSERT INTO user (id,admin,name,last_name,password,username,city_id) VALUES (3,0,'Juan','Solo','$2a$10$QVUYllnp1PMD4aQN/TDese/L78dN0ABWhnolJl0xmMtmTt.7ajx72','aaa',50);
-INSERT INTO user (id,admin,name,last_name,password,username,city_id) VALUES (4,0,'jaime','diaz','$2a$10$QVUYllnp1PMD4aQN/TDese/L78dN0ABWhnolJl0xmMtmTt.7ajx72','a12',57);
+INSERT INTO user (id,admin,name,last_name,password,username,city_id,user_profile_id) VALUES (1,1,'Grillo','Pepe','$2a$10$QVUYllnp1PMD4aQN/TDese/L78dN0ABWhnolJl0xmMtmTt.7ajx72','a',50,2);
+INSERT INTO user (id,admin,name,last_name,password,username,city_id,user_profile_id) VALUES (2,0,'ElHonrado','Juan','$2a$10$QVUYllnp1PMD4aQN/TDese/L78dN0ABWhnolJl0xmMtmTt.7ajx72','aa',57,3);
+INSERT INTO user (id,admin,name,last_name,password,username,city_id,user_profile_id) VALUES (3,0,'Juan','Solo','$2a$10$QVUYllnp1PMD4aQN/TDese/L78dN0ABWhnolJl0xmMtmTt.7ajx72','aaa',50,1);
+INSERT INTO user (id,admin,name,last_name,password,username,city_id,user_profile_id) VALUES (4,0,'jaime','diaz','$2a$10$QVUYllnp1PMD4aQN/TDese/L78dN0ABWhnolJl0xmMtmTt.7ajx72','a12',57,4);
 
 INSERT INTO user_profile (id,nombre,contador) VALUES (1,"jose",0);
 INSERT INTO user_profile (id,nombre,contador) VALUES (2,"juan",1);
