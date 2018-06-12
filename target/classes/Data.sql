@@ -2,6 +2,8 @@ delete from comment;
 delete from restaurant;
 delete from Category;
 delete from city;
+delete from user_profile;
+
 
 delete from User;
 
@@ -44,4 +46,9 @@ INSERT INTO restaurant(id, name,phone,description,likes,category_id,city_id, lat
 INSERT INTO user (id,admin,name,last_name,password,username,city_id) VALUES (1,1,'Grillo','Pepe','$2a$10$QVUYllnp1PMD4aQN/TDese/L78dN0ABWhnolJl0xmMtmTt.7ajx72','a',50);
 INSERT INTO user (id,admin,name,last_name,password,username,city_id) VALUES (2,0,'ElHonrado','Juan','$2a$10$QVUYllnp1PMD4aQN/TDese/L78dN0ABWhnolJl0xmMtmTt.7ajx72','aa',57);
 INSERT INTO user (id,admin,name,last_name,password,username,city_id) VALUES (3,0,'Juan','Solo','$2a$10$QVUYllnp1PMD4aQN/TDese/L78dN0ABWhnolJl0xmMtmTt.7ajx72','aaa',50);
+INSERT INTO user (id,admin,name,last_name,password,username,city_id) VALUES (4,0,'jaime','diaz','$2a$10$QVUYllnp1PMD4aQN/TDese/L78dN0ABWhnolJl0xmMtmTt.7ajx72','a12',57);
 
+INSERT INTO user_profile (id,nombre,contador) VALUES (1,"jose",0);
+INSERT INTO user_profile (id,nombre,contador) VALUES (2,"juan",1);
+INSERT INTO user_profile (id,nombre,contador) VALUES (3,"carla",5);
+INSERT INTO user_profile (id,nombre,contador) VALUES (4,"andrea",100);
